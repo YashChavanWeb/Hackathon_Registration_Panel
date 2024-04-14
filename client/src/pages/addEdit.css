@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(29, 1, 46);
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+    font-family: "Josefin Sans", 'Courier New', Courier, monospace;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+header{
+   font-weight: 200;
+   color: #fff;
+}
+.container {
+    margin-top: 50px;
+}
+
+#formdiv{
+    background-color: #360155;
+    max-width: 500px;
+    margin: 0 33%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px #ebb6fe;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.685);
+    text-align: left;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+option{
+    background-color: #210244;
+    color: white;
+    border: none;
+}
+
+button[type="submit"],
+button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #660481;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #48035b;
+    box-shadow: 0 0 5px 3px #c57af1;
+}
+
+.goBackLink {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.goBackLink a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.goBackLink a:hover {
+    text-decoration: underline;
+}
